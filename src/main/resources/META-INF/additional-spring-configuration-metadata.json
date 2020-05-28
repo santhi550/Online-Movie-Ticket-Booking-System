@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "security.basic.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'security.basic.enabled'"
+  },
+  {
+    "name": "spring.queries.users-query",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.queries.users-query'"
+  },
+  {
+    "name": "spring.queries.roles-query",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.queries.roles-query'"
+  }
+]}
