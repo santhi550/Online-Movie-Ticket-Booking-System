@@ -391,11 +391,11 @@ public class HomeController {
 			   
 			   Session session = Session.getInstance(props, new javax.mail.Authenticator() {
 			      protected PasswordAuthentication getPasswordAuthentication() {
-			         return new PasswordAuthentication("noreplytomytickets@gmail.com", "python@123");
+			         return new PasswordAuthentication("sample email", "password");
 			      }
 			   });
 			   Message msg = new MimeMessage(session);
-			   msg.setFrom(new InternetAddress("noreplytomytickets@gmail.com", false));
+			   msg.setFrom(new InternetAddress("sample email", false));
 
 			   msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(email));
 			   msg.setSubject("Successfully Booked");
